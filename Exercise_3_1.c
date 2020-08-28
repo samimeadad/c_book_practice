@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int n=3;
+    int n=30;
     int rem = 0;
 
     while(n >= 2)
