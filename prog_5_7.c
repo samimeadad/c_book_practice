@@ -4,7 +4,7 @@ int main(void)
 {
     double c, f;
 
-    printf("Temperature in Celcius = ");
+    printf("Temperature in Celsius: ");
     scanf("%lf", &c);
 
     f = c*1.8+32;
