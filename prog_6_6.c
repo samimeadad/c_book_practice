@@ -6,16 +6,16 @@ int main(void)
     int temp, i, j;
 
     temp=0;
-    for(i=0, j=9; i<10 & j>i; i++, j--)
+    for(i=0, j=9; i<10/2; i++, j--)
     {
         temp = a[j];
         a[j] = a[i];
         a[i] = temp;
-        //printf("\nIteration No. %d", i);
-        //printf("\ntemp=%d \na[j]=%d \na[i]=%d\n", temp, a[j], a[i]);
+        printf("\nIteration No. %d", i);
+        printf("\ntemp=%d \na[j]=%d \na[i]=%d\n", temp, a[j], a[i]);
 
     }
-
+    printf("\nThe Array in Reverse Order:\n");
     for(i=0; i<10; i++)
         printf("%d\n", a[i]);
 
