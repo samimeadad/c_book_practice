@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int a[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-    int temp, i, j;
+    int a[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int i, j, temp;
 
     temp=0;
     for(i=0, j=9; i<10/2; i++, j--)
