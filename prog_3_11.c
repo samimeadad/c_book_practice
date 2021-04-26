@@ -2,11 +2,10 @@
 
 int main(void)
 {
-    int n = 5;
+    int n = 51;
 
     if (n>=1 || n<=10)
         printf("YES\n");
-
     else
         printf("NO\n");
 

@@ -2,12 +2,12 @@
 
 int main(void)
 {
-    char ch = 'D';
+    char ch = 'd';
 
     if (ch>='a' && ch<='z')
         printf("%c is lower case\n", ch);
 
-    else if (ch>='A' && ch<'z')
+    else if (ch>='A' && ch<'Z')
         printf("%c is upper case\n", ch);
 
     else
