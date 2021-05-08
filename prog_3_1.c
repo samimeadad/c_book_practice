@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    n = -10;
+    n = 50;
     if (n>=0)
         printf("The Number is Positive.\n");
     else
