@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1631626130 source:/home/sami/git_workspace/c_book_practice/test-project/main.c
+	<stdio.h>
+	<stdlib.h>
+
